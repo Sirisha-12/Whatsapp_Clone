@@ -71,7 +71,6 @@ class CallsWidget extends StatelessWidget {
                               ),
                               const SizedBox(width: 3),
                               Text(
-                                // '(1)Today 10:10am',
                                 names[i].toString(),
                                 style: const TextStyle(
                                     fontSize: 14,
@@ -112,7 +111,6 @@ class CallsWidget extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            // 'Andrew Pattirson',
                             names[i].toString(),
                             style: const TextStyle(
                                 fontSize: 16,
@@ -131,7 +129,6 @@ class CallsWidget extends StatelessWidget {
                               ),
                               const SizedBox(width: 3),
                               Text(
-                                // '(2)Today 10:20am',
                                 time[i - 1].toString(),
                                 style: const TextStyle(
                                     fontSize: 14,

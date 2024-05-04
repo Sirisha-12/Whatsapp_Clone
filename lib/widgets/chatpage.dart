@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-// import 'package:whattsapp_ui/widgets/chatmodel.dart';
 
 class ChatPage extends StatelessWidget {
   const ChatPage({super.key});

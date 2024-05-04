@@ -14,7 +14,6 @@ class StatusWidget extends StatelessWidget {
       'Andrew ',
       'Cameron',
       'Singh',
-      // "Francis",
     ];
     List<String> time1 = [
       '10:00 pm',
@@ -34,7 +33,6 @@ class StatusWidget extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // ignore: avoid_unnecessary_containers
           Container(
             child: Row(
               children: [
@@ -192,7 +190,6 @@ class StatusWidget extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          // 'Francis',
                           name2[i].toString(),
                           style: const TextStyle(
                               fontSize: 15,
@@ -203,7 +200,6 @@ class StatusWidget extends StatelessWidget {
                           height: 5,
                         ),
                         Text(
-                          // 'Today 10:00am',
                           time1[i].toString(),
                           style: const TextStyle(
                               fontSize: 12,

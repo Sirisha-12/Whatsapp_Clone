@@ -96,8 +96,6 @@ class HomePage extends StatelessWidget {
                 labelStyle:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 tabs: [
-                  //tab1
-                  // ignore: sized_box_for_whitespace
                   Container(
                     width: 24,
                     child: const Tab(
@@ -107,8 +105,6 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                   ),
-                  //tab2
-                  // ignore: sized_box_for_whitespace
                   Container(
                     width: 90,
                     child: Tab(
@@ -134,8 +130,6 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                   ),
-
-                  // ignore: sized_box_for_whitespace
                   Container(
                     width: 85,
                     child: const Text(
@@ -143,7 +137,6 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
-                  // ignore: sized_box_for_whitespace
                   Container(
                     width: 85,
                     child: const Text(

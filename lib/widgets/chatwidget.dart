@@ -63,7 +63,6 @@ class ChatWidget extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            // 'andrew',
                             names[i].toString(),
                             style: const TextStyle(
                                 fontSize: 20, fontWeight: FontWeight.bold),
